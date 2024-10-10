@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rijksmuseum Shuffle
 
-## Getting Started
+This project is a web application that interacts with the Rijksmuseum API to fetch and display art pieces in a gallery format. The application is built using Next.js and TypeScript, providing a seamless and responsive user experience.
 
-First, run the development server:
+## Frontend
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Art Gallery Display**: Showcases 3 pieces of art fetched from the Rijksmuseum API with a shuffle button to change the displayed artworks.
+- **Art Details Page**: Clicking on an artwork opens a detailed view with comprehensive information, including title, description, and a full-screen image.
+- **Responsive Design**: The application is designed to be mobile-friendly and adapts to different screen sizes.
+- **Loading Indicator**: Displays an art-themed loading bar while fetching data from the API.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- TypeScript
+- CSS
+- React
 
-## Learn More
+### Instructions
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone the repository**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    git clone https://github.com/yourusername/weather-dashboard.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2.  **Navigate to the frontend directory:**
 
-## Deploy on Vercel
+    cd art-gallery
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Install dependencies:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    npm install
+
+4.  **Set up your API key:**
+    Create a .env.local file in the root of your project and add your Rijksmuseum API key and define port on which aplication will be ran:
+
+        RIJKSMUSEUM_API_KEY=your_api_key_here
+        PORT=3000
+
+5.  **Run the server:**
+
+    npm run build
+    npm run start
+
+## Running the Application
+
+1. **Open your browser and navigate to http://localhost:3000**
+
+2. **Explore the gallery**
+   by clicking on the artworks to view their details and using the shuffle button to change the displayed artworks.
+
+## Notes
+
+- Ensure your API key from the Rijksmuseum is correctly set in your .env.local file.
+- The application design is minimalistic and user-friendly.
+- The loading animation enhances the user experience by providing feedback during data fetching.
+
+## Potential Improvements
+
+- Implement user authentication for personalized art collections.
+- Add search functionality to allow users to find specific artworks easily.
+- Introduce filtering options based on art categories or artists.
