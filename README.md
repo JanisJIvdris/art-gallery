@@ -56,6 +56,9 @@ This project is a web application that interacts with the Rijksmuseum API to fet
 - The application design is minimalistic and user-friendly.
 - The loading animation enhances the user experience by providing feedback during data fetching.
 
+##Peronal comments
+I went for a minimalist museum look, as I am a fan of minimalist design. I aimed for the design to be clean and simple, imitating a real-life museum wall.
+
 ## Potential Improvements
 
 - Implement user authentication for personalized art collections.
