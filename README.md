@@ -22,7 +22,7 @@ This project is a web application that interacts with the Rijksmuseum API to fet
 
 1.  **Clone the repository**:
 
-    git clone https://github.com/yourusername/weather-dashboard.git
+    git clone https://github.com/JanisJIvdris/art-gallery.git
 
 2.  **Navigate to the frontend directory:**
 
